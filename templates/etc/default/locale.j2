@@ -1,4 +1,4 @@
-# {{ ansible_managed }}
+# {{ ansible_managed | default(ansible_managed) }}
 
 {% for key in locales_default %}
 {{ key }}="{{ locales_default[key] }}"
