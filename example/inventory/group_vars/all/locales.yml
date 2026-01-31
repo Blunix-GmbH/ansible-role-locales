@@ -1,0 +1,9 @@
+# Locales to generate
+locales_present:
+  - en_US.UTF-8
+  - de_DE.UTF-8
+# Locales to remove
+locales_absent: []
+# Default locale environment variables
+locales_default:
+  LANG: en_US.UTF-8

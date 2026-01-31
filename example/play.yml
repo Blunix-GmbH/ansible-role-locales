@@ -1,0 +1,4 @@
+- name: configure locales
+  hosts: all
+  roles:
+    - role: ansible-role-locales
